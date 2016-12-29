@@ -33,5 +33,5 @@ fn main() {
     // std::io::stdin.read_line returns an value of type io::Result
     // io::Result has a function .expect() that panics with the given message on error.
 
-    println!("Hello there, {}", input);
+    println!("Hello there, {}", input.trim());
 }
